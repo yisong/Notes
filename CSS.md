@@ -31,7 +31,26 @@
    * `text-shadow: -2px 5px gray;` : shadow is specified as an X-offset, a Y-offset, and an optional color
    * `text-indent`
    * `line-height`, `word-spacing`, `letter-spacing`
-* list `ol { list-style-type: lower-roman; }`
+* __border__: 
+   * `h2 { border: 5px solid red; }`:
+      *  thickness: specified in `px`, `pt`, `em`, or `thin`, `medium`, `thick`
+      *  style: `none`, `hidden`, `dotted`, `dashed`, `double`, `groove`, `inset`, `outset`, `ridge`, `solid`
+      *  color
+      *  other properties:
+         * `border-color`, `border-width`, `border-style`   
+         * `border-bottom`, `border-left`, `border-right`, `border-top`
+         * `border-bottom-color`
+   * `border-radius: 12px;` 
+* __padding__: `p { padding: 20px;}`, `p { padding-left: 200px; padding-top: 30px; }`
+   * padding shares the background color of the element   
+* __margin__: similar to padding in syntax
+   * always transparent (they don't contain the element's background color, etc.)
+   * `auto` margins: centering a block element
+      * `p { margin-left: auto; margin-right: auto; width: 750px; }`
+      * works best if `width` is set (otherwise, may occupy entire width of page)
+      * to center inline elements within a block element, use `text-align: center`
+* __dimensions__: `width`, `height`, or `max-width`, etc. with value in `px` `pt`, or percentage 
+* list `ol { list-style-type: lower-roman; }` 
 * __background__:
 
   ```css
