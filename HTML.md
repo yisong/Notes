@@ -8,14 +8,18 @@
 *  ` <div> ` block, ` <span> ` inline, ` <br> ` to break line, ` <p> ` for paragraph block
 * template
 
-   
-        <!DOCTYPE html>
-            <html>
-                <head>
-                    information about the page
-                </head>
-                <body>
-                    page contents
-                </body>
-            </html>
-   
+   ```html
+   <!DOCTYPE html>
+   <html>
+      <head>
+         <title>Title of the page</title>
+         <meta charset="utf-8" />
+         <meta name="description"
+            content="description text" />
+         <meta name="keywords" content="keywordA, keywordB" />
+      </head>
+      <body>
+         page contents
+      </body>
+   </html>
+   ```
