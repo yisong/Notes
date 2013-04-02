@@ -40,3 +40,15 @@
   ```bash
   awk 'NF<=2 {print $0}' $FILE
   ```
+  
+* get vocabulary of the file
+
+  ```bash
+  tr ' ' '\n' < $FILE | sort | uniq
+  ```
+  
+* remove first two word per line
+
+  ```bash
+  cut -d' ' -f3- $FILE
+  ```
