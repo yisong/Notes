@@ -4,6 +4,18 @@
   #!/bin/bash
   ```
 
+* export variable
+
+  ```bash
+  export EDITOR=emacs
+  ```
+
+* new command
+
+  ```bash
+  alias grebase='git rebase'
+  ```
+
 * if statement
 
   ```bash
